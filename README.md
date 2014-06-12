@@ -1,11 +1,13 @@
-# Azure [![Build Status](https://travis-ci.org/loldesign/azure.png)](https://travis-ci.org/loldesign/azure)
+# Azure
+
+Forked from: https://github.com/loldesign/azure with some modifications
 
 A golang API to communicate with the Azure Storage.
 For while, only for manager blobs and containers (create, destroy and so on).
 
 ## Installation
 
-```go get github.com/loldesign/azure```
+```go get github.com/colemickens/azure```
 
 ## Usage
 
@@ -16,7 +18,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
@@ -38,7 +40,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
@@ -67,7 +69,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
@@ -91,7 +93,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
@@ -123,7 +125,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
@@ -145,7 +147,7 @@ package main
 
 import(
   "fmt"
-  "github.com/loldesign/azure"
+  "github.com/colemickens/azure"
 )
 
 func main() {
