@@ -78,7 +78,7 @@ func main() {
     fmt.Println(err)
   }
 
-  for _, file := range blobs.Itens {
+  for _, file := range blobs.Items {
     fmt.Printf("blob -> %+v", file)
   }
 }
